@@ -24,12 +24,18 @@ This first section is part of the ESIB course, it explains how to create your in
     HOST=localhost
     ```
 
-4. Run the below command to start your application:
+4. Install the following dependencies:
+
+    ```[bash]
+    yarn add bootstrap@4.0.0
+    yarn add reactstrap@5.0.0
+    yarn add react-popper@0.9.2
+    ```
+
+4. Run the below commands to start your application:
 
     ```[bash]
     yarn start
-    ```
-
     Your react application can now be consulted on [http://localhost:3000/](http://localhost:3000/)
 
 5. Modify [src/App.js](https://github.com/JBakouny/React/commit/6c8c6a9316068be38928b31de1580194f98cf8fd#diff-3d74dddefb6e35fbffe3c76ec0712d5c416352d9449e2fcc8210a9dee57dff67) and [src/index.js](https://github.com/JBakouny/React/commit/6c8c6a9316068be38928b31de1580194f98cf8fd#diff-bfe9874d239014961b1ae4e89875a6155667db834a410aaaa2ebe3cf89820556) in accordance with the [Configure React](https://github.com/JBakouny/React/commit/6c8c6a9316068be38928b31de1580194f98cf8fd) commit.
